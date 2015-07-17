@@ -180,7 +180,7 @@ function wphacks_admin_enqueue_ban_user_js($hook){
 	if( 'users.php' != $hook ){
 		return;
 	}
-	wp_enqueue_script( 'wphacks_ban_user', plugin_dir_url( __FILE__ ) . 'wphacks_ban_user.js', '', false, true );
+	wp_enqueue_script( 'wphacks_ban_user', plugin_dir_url( __FILE__ ) . 'wphacks-ban-user.js', '', false, true );
 }
 
 function wphacks_ajax_parse_url(){
